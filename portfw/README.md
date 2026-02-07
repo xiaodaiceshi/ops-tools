@@ -9,7 +9,12 @@
 
 ### 快速安装使用
 ```bash
-wget -O portfw.sh https://raw.githubusercontent.com/xiaodaiceshi/ops-tools/main/portfw.sh
+wget -O portfw.sh https://raw.githubusercontent.com/xiaodaiceshi/ops-tools/main/portfw/install.sh
+# 或使用 curl
+curl -o portfw.sh https://raw.githubusercontent.com/xiaodaiceshi/ops-tools/main/portfw/install.sh
 chmod +x portfw.sh
 ./portfw.sh
+
+# 一键执行（curl）
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xiaodaiceshi/ops-tools/main/portfw/install.sh)"
 ```
